@@ -6,7 +6,7 @@
 /*   By: phtruong <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 10:36:48 by phtruong          #+#    #+#             */
-/*   Updated: 2019/02/28 10:43:28 by phtruong         ###   ########.fr       */
+/*   Updated: 2019/02/28 10:44:22 by phtruong         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,5 @@ typedef struct photo {
 	int n_tag;
 	char *tags;
 } photo;
+
+#endif
