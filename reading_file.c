@@ -1,31 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   hashcode.h                                         :+:      :+:    :+:   */
+/*   reading_file.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: phtruong <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mbutt <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/28 10:36:48 by phtruong          #+#    #+#             */
-/*   Updated: 2019/02/28 11:16:36 by mbutt            ###   ########.fr       */
+/*   Created: 2019/02/28 11:10:48 by mbutt             #+#    #+#             */
+/*   Updated: 2019/02/28 11:15:11 by mbutt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HASHCODE_H
-# define HASHCODE_H
+#include "hashcode.h"
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <stdio.h>
+int main (void)
+{
+	char file_name[25];
+	FILE *fp;
 
-typedef struct photos {
-	int index;
-	char orient;
-	int n_tag;
-	char *tags;
-} photo;
+	fp = fopen(a_exmple.txt, "r");
+	
+	printf("%s\n", fp);
 
-#define True 1
-#define False 0
-
-#endif
+	fclose(fp);
+	return(0);
+}
