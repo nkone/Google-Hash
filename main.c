@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   reading_file.c                                     :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbutt <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/28 11:10:48 by mbutt             #+#    #+#             */
-/*   Updated: 2019/02/28 12:36:36 by mbutt            ###   ########.fr       */
+/*   Created: 2019/02/28 12:38:50 by mbutt             #+#    #+#             */
+/*   Updated: 2019/02/28 12:40:43 by mbutt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,6 @@
 
 int main (void)
 {
-	FILE *fPointer;
-
-	fPointer = fopen("a_exmple.txt", "r");
-	
-	char singleLine[80];
-
-	while(!feof(fPointer))
-	{
-		fgets(singleLine, 80, fPointer);
-		puts(singleLine);
-	}
-	
-	fclose(fPointer);
-
+	printf("3\n0\n3\n1 2");
 	return(0);
 }
