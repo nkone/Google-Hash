@@ -6,7 +6,7 @@
 /*   By: phtruong <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 10:36:48 by phtruong          #+#    #+#             */
-/*   Updated: 2019/02/28 10:44:22 by phtruong         ###   ########.fr       */
+/*   Updated: 2019/02/28 10:45:30 by phtruong         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 
-typedef struct photo {
+typedef struct photos {
 	int index;
 	char orient;
 	int n_tag;
