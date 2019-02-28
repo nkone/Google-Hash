@@ -6,7 +6,7 @@
 /*   By: phtruong <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 10:36:48 by phtruong          #+#    #+#             */
-/*   Updated: 2019/02/28 12:11:00 by phtruong         ###   ########.fr       */
+/*   Updated: 2019/02/28 12:24:13 by phtruong         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,6 @@ typedef struct photos {
 
 #define TRUE 1
 #define FALSE 0
+#define BUFF_SIZE 1
 
 #endif
