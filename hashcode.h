@@ -6,7 +6,7 @@
 /*   By: phtruong <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 10:36:48 by phtruong          #+#    #+#             */
-/*   Updated: 2019/02/28 11:45:09 by jchiang-         ###   ########.fr       */
+/*   Updated: 2019/02/28 12:11:00 by phtruong         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+#include "./libft/libft.h"
 
 typedef struct photos {
 	int index;
@@ -28,7 +29,7 @@ typedef struct photos {
 //	char *tags;
 } photo;
 
-#define True 1
-#define False 0
+#define TRUE 1
+#define FALSE 0
 
 #endif
